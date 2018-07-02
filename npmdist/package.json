@@ -1,0 +1,26 @@
+{
+  "name": "magic3djs",
+  "version": "1.0.1",
+  "description": "This library helps to enable 3D rotation (Using 3D transform) on any flat 2d image or html element without any need of 3d images.",
+  "main": "magic3d.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vngneers/magic3djs.git"
+  },
+  "keywords": [
+    "3d",
+    "html 3d",
+    "3d js",
+    "3d effect",
+    "2d to 3d"
+  ],
+  "author": "vngneers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vngneers/magic3djs/issues"
+  },
+  "homepage": "https://github.com/vngneers/magic3djs#readme"
+}

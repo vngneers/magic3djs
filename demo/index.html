@@ -1,0 +1,45 @@
+<html>
+<head>
+<script src="../dist/magic3d.min.js"></script>
+</head>
+<body>
+<div id="content1">
+	<img width="400px" height="400px" src="img/phone.png" />
+</div>
+<br/>
+<h2 id="content2"><strong><img class="alignleft" src="http://sub1.kevinchisholm.com/blog/images/html5-logo.png" alt="HTML5 Logo" width="170" height="170">Once you know how to successfully drag one HTML element and drop it on another one, there is a new UX challenge: multiple elements that can be dragged and then dropped on any one of multiple droppables.</strong></h2>
+
+<br/>
+<img class="sample-img" id="content3" src="img/tshirt1.jpg" /><br/>
+<img class="sample-img" id="content4" src="img/pillow.jpg" /><br/>
+<img class="sample-img" id="content5" src="img/card.jpg" /><br/>
+<img class="sample-img" id="content3" src="img/tshirt2.jpg" /><br/>
+
+<script>
+var rotator = new Magic3D({
+	elementId: "content1",
+	padding: 0,
+	maxDeg : 8,
+	width: 400,
+	height: 400
+});
+
+var rotator2 = new Magic3D({
+	elementId: "content2",
+	padding: 0,
+	maxDeg : 10,
+	width: 400,
+	height: 436
+});
+
+var rotator3 = new Magic3D({
+	elements: document.getElementsByClassName("sample-img"),
+	padding: 0,
+	maxDeg : 8,
+	width: 400,
+	height: 400
+});
+
+</script>
+</body>
+</html>
